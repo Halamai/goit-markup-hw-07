@@ -1,0 +1,77 @@
+.ourcompany {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.worker-meny {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.worker-meny__links {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.worker-meny__socialelink {
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.worker-meny__socialelinkcolorgrey {
+  fill: #afb1b8;
+}
+.worker-meny__socialelink:hover use,
+.worker-meny__socialelink:focus use,
+.worker-meny__socialelink:hover,
+.worker-meny__socialelink:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
+.ourcompany {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: #f5f4fa;
+}
+
+.ourcompany-menu {
+  display: flex;
+  margin-left: -30px;
+}
+.ourcompany-menu__list {
+  flex-basis: calc((100% / 4) - 30px);
+  margin-left: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.worker-occupation__title {
+  text-align: center;
+}
+.worker-occupation__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--title-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.worker-occupation {
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.title-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,21 @@
+.ourwork {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.ourwork-title {
+  display: flex;
+  margin-left: -30px;
+}
+.ourwork-title__text {
+  flex-basis: calc((100% / 4) - 30px);
+}
+.ourwork-title__textmargin {
+  margin-left: 30px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.title-text {
+  font-size: 14px;
+  line-height: 1.74;
+}
